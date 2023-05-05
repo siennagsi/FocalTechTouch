@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         configuration: [Debug, Release]
-        platform: [arm64]
+        platform: [x64]
     runs-on: windows-2022
     env:
       Solution_Path: contrib\FocalTechTouch.sln
